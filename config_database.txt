@@ -1,0 +1,2 @@
+username="your username between these quotes"
+password="your password between these quotes"

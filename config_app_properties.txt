@@ -1,0 +1,15 @@
+server.port=4000
+
+spring.mvc.format.date-time=yyyy-MM-dd HH:mm:ss
+
+spring.jpa.database=mysql
+spring.jpa.show-sql=true
+spring.jpa.hibernate.ddl-auto=update
+
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+#Example config: spring.datasource.url=jdbc:mysql://localhost:3306/notes?useTimezone=true&serverTimezone=UTC
+spring.datasource.url=jdbc:mysql://[hostname/IP address]:[your port]/notes?useTimezone=true&serverTimezone=UTC
+# Example config: spring.datasource.username=root
+spring.datasource.username=[your username]
+# Example config: spring.datasource.password=123456
+spring.datasource.password=[your password]
