@@ -55,6 +55,8 @@ Espero que esto no cause demasiados problemas. Gracias de antemano.
 
 ## Otro método de ejecución
 
+**Sigue los pasos 1 a 3 descritos anteriormente luego...**
+
 **Paso 1.** Ejecuta manualmente desde un IDE (IntelliJ, Eclipse) el archivo `AppApplication.java` ubicado en `backend/src/main/java/com/notes/app`.
 
 Asegurate de limpiar y volver a instalar las dependencias: `mvnw clean`, `mvnw install`.
