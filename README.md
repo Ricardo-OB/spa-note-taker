@@ -55,10 +55,12 @@ Espero que esto no cause demasiados problemas. Gracias de antemano.
 
 ## Otro método de ejecución
 
-**Sigue los pasos 1 a 3 descritos anteriormente luego...**
+**Paso 1.** Crea una base de datos llamada `notes` mediante una consola MySQL o MySQL Workbench: `CREATE DATABASE notes;`
 
-**Paso 1.** Ejecuta manualmente desde un IDE (IntelliJ, Eclipse) el archivo `AppApplication.java` ubicado en `backend/src/main/java/com/notes/app`.
+**Paso 2.** Completa los campos faltantes de `config_app_properties.txt` y luego copia todo su contenido y pegalo en `backend/src/main/resources/application.properties`.
+
+**Paso 3.** Ejecuta manualmente desde un IDE (IntelliJ, Eclipse) el archivo `AppApplication.java` ubicado en `backend/src/main/java/com/notes/app`.
 
 Asegurate de limpiar y volver a instalar las dependencias: `mvnw clean`, `mvnw install`.
 
-**Paso 2.** Ejecuta manualmente el proyecto de vue desde `frontend/`: `npm install`, `npm run serve`
+**Paso 4.** Ejecuta manualmente el proyecto de vue desde `frontend/`: `npm install`, `npm run serve`
